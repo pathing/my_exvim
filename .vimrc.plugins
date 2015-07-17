@@ -513,13 +513,15 @@ let g:vim_markdown_initial_foldlevel=9999
 "By wubo
 " vim-session
 " ---------------------------------------------------
-Plugin 'plasticboy/vim-session'
+Plugin 'xolox/vim-session'
 
 let g:session_autosave="yes"
 let g:session_autoload="yes"
 
 " vim-misc
 " ---------------------------------------------------
-Plugin 'plasticboy/vim-misc'
+Plugin 'xolox/vim-misc'
 
-
+" vim-multiple-cursors
+" ---------------------------------------------------
+Plugin 'terryma/vim-multiple-cursors'

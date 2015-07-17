@@ -1,3 +1,4 @@
+let g:exvim_custom_path='G:\Vim\exvim\'
 "/////////////////////////////////////////////////////////////////////////////
 " basic
 "/////////////////////////////////////////////////////////////////////////////
@@ -120,14 +121,15 @@ else
     let g:solarized_termcolors = 256
 endif
 colorscheme solarized
-" colorscheme exlightgray
 
 "/////////////////////////////////////////////////////////////////////////////
 " General
 "/////////////////////////////////////////////////////////////////////////////
 
 "set path=.,/usr/include/*,, " where gf, ^Wf, :find will search
-set backup " make backup file and leave it around
+"set backup " make backup file and leave it around
+set nobackup
+set noswapfile
 
 " setup back and swap directory
 let data_dir = $HOME.'/.data/'
