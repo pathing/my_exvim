@@ -1,0 +1,14 @@
+" vim-session
+" ---------------------------------------------------
+Plugin 'xolox/vim-session'
+
+let g:session_autosave="no"
+let g:session_autoload="no"
+
+" vim-misc
+" ---------------------------------------------------
+Plugin 'xolox/vim-misc'
+
+" vim-multiple-cursors
+" ---------------------------------------------------
+Plugin 'terryma/vim-multiple-cursors'

@@ -504,26 +504,3 @@ if filereadable(expand(vimrc_local_path))
 endif
 
 " vim:ts=4:sw=4:sts=4 et fdm=marker:
-
-"//////////////////////////////////////////////////////////////////////////////
-"Add by wubo
-"//////////////////////////////////////////////////////////////////////////////
-inoremap {} {}<ESC>i
-inoremap <> <><ESC>i
-inoremap () ()<ESC>i
-inoremap [] []<ESC>i
-inoremap "" ""<ESC>i
-inoremap '' ''<ESC>i
-inoremap 3' """<CR>"""<ESC>O
-inoremap /* /*  */<ESC>i<Left>
-inoremap {<CR> {<CR>}<ESC>O
-
-imap <c-h> <Left>
-imap <c-j> <Down>
-imap <c-k> <Up>
-imap <c-l> <Right>
-
-nmap cm :%s/\r\+$//e<CR>
-
-inoremap ;; <ESC>A;
-imap {{ <ESC>A{<CR>

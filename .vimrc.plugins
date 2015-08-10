@@ -297,7 +297,7 @@ let g:NERDTreeWinSize = 30
 let g:NERDTreeMouseMode = 1
 let g:NERDTreeMapToggleZoom = '<Space>'
 
-"By wubo
+"Bywubo
 nmap <F2> :NERDTreeToggle<CR>
 
 " nerdcommenter: invoke by <leader>c<space>, <leader>cl, <leader>cu, <F11> or <C-F11>
@@ -367,9 +367,7 @@ let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 " ---------------------------------------------------
 Plugin 'mbbill/undotree'
 
-"nnoremap <leader>u :UndotreeToggle<CR>
-"By wubo
-nnoremap <F5> :UndotreeToggle<CR>
+nnoremap <leader>u :UndotreeToggle<CR>
 let g:undotree_SetFocusWhenToggle=1
 let g:undotree_WindowLayout = 4
 
@@ -510,18 +508,4 @@ let g:vim_markdown_initial_foldlevel=9999
 
 " vim:ts=4:sw=4:sts=4 et fdm=marker:
 
-"By wubo
-" vim-session
-" ---------------------------------------------------
-Plugin 'xolox/vim-session'
 
-let g:session_autosave="yes"
-let g:session_autoload="yes"
-
-" vim-misc
-" ---------------------------------------------------
-Plugin 'xolox/vim-misc'
-
-" vim-multiple-cursors
-" ---------------------------------------------------
-Plugin 'terryma/vim-multiple-cursors'
