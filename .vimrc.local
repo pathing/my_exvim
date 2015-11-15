@@ -20,3 +20,17 @@ nmap cm :%s/\r\+$//e<CR>
 
 inoremap ;; <ESC>A;
 imap {{ <ESC>A{<CR>
+
+" For pandoc
+function! ToHtml()
+    exec 'w'
+    exec "!pandoc % -o %<.html --ascii"
+endfunction
+
+function! ToDocx()
+    exec 'w'
+    exec "!pandoc % -o %<.html --ascii && pandoc %<.html -o %<.docx && rm %<.html -f"
+endfunction
+
+:nmap <silent><F5> :call ToHtml()<CR>
+:nmap <silent><F6> :call ToDocx()<CR>

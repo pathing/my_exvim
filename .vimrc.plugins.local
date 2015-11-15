@@ -15,3 +15,10 @@ Plugin 'xolox/vim-misc'
 " ---------------------------------------------------
 Plugin 'terryma/vim-multiple-cursors'
 
+" vim-pandoc-syntex
+" ---------------------------------------------------
+" Plugin 'jgm/vim-pandoc-syntax'
+
+" vim-pandoc
+" ---------------------------------------------------
+" Plugin 'jgm/vim-pandoc'
